@@ -12,7 +12,6 @@
 
     <header>
        Un TAS de Fleurs
-
     </header>
    
 
@@ -22,8 +21,8 @@
     
     
                 <li><a href="<?= base ?>index.php">Accueil</a></li>
-                <li><a href="<?= base ?>pages/write-ups.php">Fleurs</a></li>
-                <li><a href="<?= base ?>pages/journey.php">Mon compte</a></li>
+                <li><a href="<?= base ?>pages/fleuriste.php">Fleurs</a></li>
+                <li><a href="<?= base ?>pages/compte.php">Mon compte</a></li>
                 <li><a href="<?= base ?>pages/contact.php">Contact</a></li>
                 <li><a href="<?= base ?>pages/register.php">Inscription</a></li>
             </ul>
