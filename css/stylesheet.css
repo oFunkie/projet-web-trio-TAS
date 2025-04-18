@@ -6,6 +6,11 @@ body {
     display: flex;
     background-color: #b0dbb3;
     color: beige;
+
+}
+
+.container {
+    margin: 200px;
 }
 
 header {
