@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    background-color: #b0dbb3;
+    background-color: #eaead9;
     color: beige;
 
 }
@@ -17,19 +17,19 @@ header {
     position: fixed;
     width: 100%;
     height: 16%;
-    background-image: url('../images/baniere.png');
+    background-color: #a37781;
     z-index: 6;
     font-size: 70px;
     text-align: center;
     line-height: 1.5;
-    color: rgb(247, 201, 0);
+    color: #eaead9;
 }
 
 /* Sidebar gauche */
 .sidebar-left {
     width: 18%;
-    background-color: #343fb6;
-    color: #3BBA9C;
+    background-color: #cdaab3;
+    color: #eaead9;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ header {
 
 .sidebar-left .nav ul li a {
     text-decoration: none;
-    color: #3BBA9C;
+    color: #eaead9;
     transition: color 0.3s;
 }
 
@@ -71,7 +71,7 @@ header {
 .sidebar-right {
     width: 18%;
     background-color: #e4d100;
-    color: #3BBA9C;
+    color: #eaead9;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -84,9 +84,10 @@ header {
 /* Footer */
 footer {
     z-index: 6;
-    background-color: rgb(137, 137, 137);
+    background-color: #dfbfbe;
     width: 100%;
     height: 18%;
     position: fixed;
     bottom: 0;
+    text-align: center;
 }
