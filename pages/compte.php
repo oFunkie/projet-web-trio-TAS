@@ -4,7 +4,7 @@
 
     <?php 
     include '../main/access.php'; 
-    $req = "SELECT * FROM client"; 
+    $req = "SELECT * FROM client where id "; 
     $reponse = $access->query($req); 
     ?>
     <tr>
