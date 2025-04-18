@@ -1,3 +1,4 @@
+<?php include '../main/top.php'; ?>
 <h1>Liste</h1>
 
 <table border="1">
@@ -28,3 +29,4 @@
     </tr>
     <?php endforeach; ?>
 </tbody>
+<?php include '../main/bot.php'; ?>
