@@ -6,7 +6,6 @@
     include '../main/access.php'; 
     $req = "SELECT * FROM client"; 
     $reponse = $access->query($req); 
-    foreach ($reponse as $r): 
     ?>
     <tr>
         <td><?= $r['nom'] ?></td>
@@ -15,7 +14,6 @@
         <td><?= $r['ville'] ?></td>
         <td><?= $r['cp'] ?></td>
     </tr>
-    <?php endforeach; ?>
 </tbody>
     </div>
 <?php include '../main/bot.php'; ?>
