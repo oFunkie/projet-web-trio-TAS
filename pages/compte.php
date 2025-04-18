@@ -1,6 +1,5 @@
 <?php include '../main/top.php'; ?>
 <div class="container">
-
 <tbody>
 
     <?php 
@@ -19,5 +18,4 @@
     <?php endforeach; ?>
 </tbody>
     </div>
-
 <?php include '../main/bot.php'; ?>
