@@ -1,6 +1,7 @@
 <?php include '../main/top.php'; ?>
+
 <main>
-    <h2>Inscription clients<h2>
+    <h2>Inscription clients</h2>
         <form action="submit.php" method="post">
             <input type="text" name="nom" id ="nom" placeholder="Nom" required>
             <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
@@ -10,4 +11,5 @@
             <button type="submit">Inscription</button>
         </form>
 </main>
+
 <?php include '../main/bot.php'; ?>

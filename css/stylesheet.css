@@ -9,9 +9,43 @@ body {
 
 }
 
-.container {
-    margin: 200px;
+main {
+    margin-top: 8%; 
+    margin-left: 42%;
+    margin-right: 18%; 
+    margin-bottom: 18%; 
+    padding: 20px;
+    background-color: #d6cfc7;
+    color: #333;
+
+    box-sizing: border-box;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a37781;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #865f6a;
+}
+
 
 header {
     position: fixed;
