@@ -1,19 +1,18 @@
 <?php include '../main/top.php'; ?>
-<div class="container">
-<tbody>
 
+<tbody>
     <?php 
     include '../main/access.php'; 
     $req = "SELECT * FROM client where id "; 
     $reponse = $access->query($req); 
     ?>
     <tr>
-        <td><?= $r['nom'] ?></td>
-        <td><?= $r['prenom'] ?></td>
-        <td><?= $r['adresse'] ?></td>
-        <td><?= $r['ville'] ?></td>
-        <td><?= $r['cp'] ?></td>
+        <td><?= $reponse['nom'] ?></td>
+        <td><?= $reponse['prenom'] ?></td>
+        <td><?= $reponse['adresse'] ?></td>
+        <td><?= $reponse['ville'] ?></td>
+        <td><?= $reponse['cp'] ?></td>
     </tr>
 </tbody>
-    </div>
+
 <?php include '../main/bot.php'; ?>
