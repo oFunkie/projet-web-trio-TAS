@@ -24,24 +24,3 @@ CREATE TABLE fleur (
     couleur VARCHAR(50),
     nom VARCHAR(100)
 );
-
-CREATE TABLE fleuriste (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(100),
-    adresse TEXT,
-    arrondissement INT,
-    telephone VARCHAR(20)
-);
-
-CREATE TABLE arrondisement (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    numero INT
-);
-
-CREATE TABLE panier (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    fleur VARCHAR(200),
-    nombre INT,
-    id_clients INT,
-    FOREIGN KEY (id_clients) REFERENCES client(id)
-);
