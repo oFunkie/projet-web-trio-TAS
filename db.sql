@@ -24,3 +24,11 @@ CREATE TABLE fleur (
     couleur VARCHAR(50),
     nom VARCHAR(100)
 );
+
+CREATE TABLE panier (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fleur VARCHAR(200),
+    nombre INT,
+    id_clients INT,
+    FOREIGN KEY (id_clients) REFERENCES client(id)
+);
