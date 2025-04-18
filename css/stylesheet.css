@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    background-color: #b0dbb3;
+    color: beige;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 16%;
+    background-image: url('../images/baniere.png');
+    z-index: 6;
+    font-size: 70px;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(247, 201, 0);
+}
+
+/* Sidebar gauche */
+.sidebar-left {
+    width: 18%;
+    background-color: #343fb6;
+    color: #3BBA9C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 16%; /* sous le header */
+    left: 0;
+    padding-top: 20px;
+}
+
+/* Navigation dans la sidebar gauche */
+.sidebar-left .nav {
+    width: 100%;
+    font-size: 30px;
+}
+
+.sidebar-left .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar-left .nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar-left .nav ul li a {
+    text-decoration: none;
+    color: #3BBA9C;
+    transition: color 0.3s;
+}
+
+.sidebar-left .nav ul li a:hover {
+    color: white;
+}
+
+/* Sidebar droite */
+.sidebar-right {
+    width: 18%;
+    background-color: #e4d100;
+    color: #3BBA9C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 16%;
+    right: 0;
+}
+
+/* Footer */
+footer {
+    z-index: 6;
+    background-color: rgb(137, 137, 137);
+    width: 100%;
+    height: 18%;
+    position: fixed;
+    bottom: 0;
+}
