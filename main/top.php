@@ -1,4 +1,4 @@
-<?php define('base', '/projet/');?>
+<?php define('base', '/projet-web-trio-TAS/');?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
