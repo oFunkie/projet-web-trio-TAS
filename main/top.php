@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Un TAS de Fleurs</title>
+    <title>Un TAS de Fleurs Pas YO</title>
     <link rel="stylesheet" href="<?= base ?>css/stylesheet.css">
 </head>
 <body>
