@@ -9,11 +9,13 @@
     $reponse = $access->query($req); 
     foreach ($reponse as $r): 
     ?>
-        <p><?= $r['nom'] ?>
-        <?= $r['prenom'] ?>
-        <?= $r['adresse'] ?>
-        <?= $r['ville'] ?>
-        <?= $r['cp'] ?></p>
+    <tr>
+        <td><?= $r['nom'] ?></td>
+        <td><?= $r['prenom'] ?></td>
+        <td><?= $r['adresse'] ?></td>
+        <td><?= $r['ville'] ?></td>
+        <td><?= $r['cp'] ?></td>
+    </tr>
     <?php endforeach; ?>
 </tbody>
     </div>
