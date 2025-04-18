@@ -43,5 +43,6 @@ CREATE TABLE panier (
     fleur VARCHAR(200),
     nombre INT,
     id_clients INT,
+    FOREIGN KEY (fleur) REFERENCES fleur(nom),
     FOREIGN KEY (id_clients) REFERENCES client(id)
 );
