@@ -11,7 +11,7 @@
 <body>
 
     <header>
-       Un TAS de Fleurs YO 2
+       Un TAS de Fleurs
 
     </header>
    
@@ -22,9 +22,9 @@
     
     
                 <li><a href="<?= base ?>index.php">Accueil</a></li>
-                <li><a href="pages/write-ups.php">Fleurs</a></li>
-                <li><a href="pages/journey.php">Mon compte</a></li>
-                <li><a href="pages/contact.php">Contact</a></li>
+                <li><a href="<?= base ?>pages/write-ups.php">Fleurs</a></li>
+                <li><a href="<?= base ?>pages/journey.php">Mon compte</a></li>
+                <li><a href="<?= base ?>pages/contact.php">Contact</a></li>
                 <li><a href="<?= base ?>pages/register.php">Inscription</a></li>
             </ul>
         </nav>
