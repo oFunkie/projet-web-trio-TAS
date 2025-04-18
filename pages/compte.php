@@ -1,6 +1,8 @@
 <?php include '../main/top.php'; ?>
+<div class="container">
 
 <tbody>
+
     <?php 
     include '../main/access.php'; 
     $req = "SELECT * FROM client"; 
@@ -14,5 +16,6 @@
         <td><?= $r['cp'] ?></td>
     </tr>
 </tbody>
+    </div>
 
 <?php include '../main/bot.php'; ?>
