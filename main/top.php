@@ -11,6 +11,9 @@
 <body>
 
     <header>
+       
+        <img src="<?= base ?>images/logo.png" style="position: absolute; border-radius:50%; height:90%; left:10px; top:5px;">
+
        Un TAS de Fleurs
     </header>
    
