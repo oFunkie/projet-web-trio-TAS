@@ -205,6 +205,12 @@ button:hover {
 .fleur button:hover {
     background-color: #865f6a;
 }
+.container {
+    margin-top: 10%;
+    color: black;
+    text-align: justify;
+    width: 800px;
+}
 
 footer {
     z-index: 6;
