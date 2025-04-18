@@ -1,5 +1,11 @@
 /* styles.css */
 
+@font-face {
+    font-family: 'fleur';
+    src: url(../police/Themundayfreeversion-Regular.ttf);
+}
+
+
 body {
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -107,6 +113,7 @@ header {
     text-align: center;
     line-height: 1.5;
     color: #eaead9;
+    font-family: 'fleur';
 }
 
 /* Sidebar gauche */
@@ -174,4 +181,10 @@ footer {
     position: fixed;
     bottom: 0;
     text-align: center;
+
 }
+
+footer p {
+    margin: 4px;
+}
+
