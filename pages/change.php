@@ -9,7 +9,7 @@
             <input type="text" name="cp" id="cp" placeholder="Code postal" required>
             <button type="submit">Supprimer</button>
         </form>
-    </form>
+
 <!-- Form pour modifier et choisir quoi modifier !-->
     <h1>Modifier</h1>
     <form action="modif.php" method="post">
