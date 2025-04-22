@@ -1,4 +1,6 @@
 <?php include '../main/top.php'; ?>
+
+<div class="container-liste">
 <h1>Liste</h1>
 
 <table border="1">
@@ -29,4 +31,7 @@
     </tr>
     <?php endforeach; ?>
 </tbody>
+    </table>
+</div>
+
 <?php include '../main/bot.php'; ?>

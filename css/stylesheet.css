@@ -214,6 +214,16 @@ button:hover {
     width: 800px;
 }
 
+.container-liste {
+    margin-top: 10%;
+    margin-left: 30%;
+    color: black;
+    text-align: justify;
+    width: 800px;
+    
+}
+
+
 footer {
     z-index: 6;
     background-color: #dfbfbe;
